@@ -1,0 +1,66 @@
+<!-- Replica el ejercicio del vídeo 3 de esta sesión y realiza el siguiente cambio:
+Replícalo exactamente igual, pero realiza una nueva versión en modo oscuro
+Los colores serán los siguientes
+El rosa se queda igual
+El fondo blanco será sustituido por el color #161717
+El fondo de los inputs tendrá un color #212121
+El fondo de los inputs cuando se hace hover será del color #454045
+Los textos tendrán un color blanco
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Form</title>
+    <link rel="stylesheet" href="ejemplo7_estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Sign up to Dribbble</h2>
+            <div class="btns">
+                <button class="btn-google">
+                    <picture><img src="google.png" alt="logo-google"></picture>
+                    <span>Registrarse con Google</span>
+                </button>
+                <button class="btn-twitter">
+                    <picture><img src="twitter-logo3.png" alt="twitter-logo"></picture>
+                </button>
+            </div>
+            <div class="separator">
+                <hr>
+                <span>Or</span>
+                <hr>
+            </div>
+            <form action="/" method="">
+                <div class="section-inputs">
+                    <label for="name">
+                        <span>Name</span>
+                        <input type="text" name="name" id="name">
+                    </label>
+                    <label for="username">
+                        <span>Username</span>
+                        <input type="text" name="username" id="username">
+                    </label>
+                </div>
+                <label for="email">
+                    <span>Email</span>    
+                    <input type="email" name="email" id="email">
+                </label>
+                
+                <label for="password">
+                    <span>Password</span>
+                    <input type="password" name="password" id="password" placeholder="6+ characters">
+                </label>
+                <label for="accept">
+                    <input type="checkbox" id="accept">
+                    <span>Creating an account means you’re okay with our Terms of Service, Privacy Policy, and our default Notification Settings.</span>
+                </label>
+                <button type="submit">Create Account</button>
+            </form>
+    </div>
+        
+</body>
+</html>

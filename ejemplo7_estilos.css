@@ -1,0 +1,97 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btns {
+    display: flex;
+    align-self: flex-start;
+    gap: 20px;
+}
+
+.btn-google {
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.btn-google:hover {
+    opacity: 0.75;
+}
+
+.btn-google span {
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+ 
+.btn-google picture {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-google picture img {
+    width: 75%;
+}
+
+.btn-twitter {
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.btn-twitter:hover {
+    background-color: #e5e5e5;   
+}
+
+.btn-twitter picture {
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-twitter picture img{
+    width: 50%;
+}
+
+.separator {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1.5px solid #f0f0f0;
+}
+
+.separator span {
+    color: #787684;
+}
+
+.section-inputs {
+    display: flex;
+}
