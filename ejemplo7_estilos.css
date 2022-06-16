@@ -5,12 +5,15 @@
 .container h2 {
     align-self: flex-start;
 }
+
 .container {
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
+    width: 425px;
 }
 
 .btns {
@@ -37,7 +40,7 @@
 .btn-google span {
     color: white;
     font-weight: 500;
-    padding: 15px;
+    padding: 30px;
 }
  
 .btn-google picture {
@@ -51,7 +54,7 @@
 }
 
 .btn-google picture img {
-    width: 75%;
+    width: 60%;
 }
 
 .btn-twitter {
@@ -75,7 +78,7 @@
     justify-content: center;
 }
 
-.btn-twitter picture img{
+.btn-twitter picture img {
     width: 50%;
 }
 
@@ -97,4 +100,92 @@
 
 .section-inputs {
     display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label span {
+    color: #0e0d22;
+    font-weight: bold;
+
+}
+
+.section-inputs label input {
+    width: 80%;
+    border: none;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 5px;
+    outline: none;
+    font-size: 14pt;
+}
+
+label input {
+    width: 90%;
+    border: none;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 5px;
+    outline: none;
+    font-size: 14pt;
+    /*transition: background-color 200ms ease, outline 200ms ease, color 200ms ease;*/
+}
+
+label input:hover {
+    background-color: white;
+    border: solid 1px #f3f3f3;
+    outline: 4px solid rgb(234 76 137 / 10%) ;
+}
+
+label input:focus {
+    background-color: white;
+    outline: 4px solid rgb(234 76 137 / 10%) ;
+    border: 1px solid rgba(232, 134, 172, 0.623) ;
+}
+
+.checkbox-label {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: 20px;
+    /*-webkit-transform: scale(2);*/
+}
+
+.checkbox-label span {
+    font-weight: 400;
+    color: #767482;
+
+}
+
+.btn-submit {
+    background-color: #e94d88;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 11pt;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    opacity: 75%;
 }
