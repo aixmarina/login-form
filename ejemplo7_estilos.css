@@ -2,6 +2,9 @@
     font-family: Helvetica, sans-serif;
 }
 
+.container h2 {
+    align-self: flex-start;
+}
 .container {
     display: flex;
     flex-direction: column;
