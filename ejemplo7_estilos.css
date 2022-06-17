@@ -102,6 +102,7 @@
     display: flex;
     gap: 10px;
     width: 100%;
+    transition: all ease 0.2s
 }
 
 form {
@@ -127,6 +128,7 @@ label span {
     width: 80%;
     border: none;
     background-color: #f3f3f3;
+    border: solid 1px #f3f3f3;
     border-radius: 10px;
     padding: 10px 20px;
     margin-top: 5px;
@@ -138,6 +140,7 @@ label input {
     width: 90%;
     border: none;
     background-color: #f3f3f3;
+    border: solid 1px #f3f3f3;
     border-radius: 10px;
     padding: 10px 20px;
     margin-top: 5px;
